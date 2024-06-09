@@ -1,0 +1,18 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-size: 10px;
+  font-family: 'Roboto';
+  background-color: black;
+  color: white;
+}
+
+.disabled {
+  opacity: 0.6;
+  pointer-events: none;
+}
+.container{
+  max-width: 1400px;
+  margin:0 auto;
+  padding: 0 40px;
+}

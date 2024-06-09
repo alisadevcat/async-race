@@ -1,0 +1,53 @@
+.modal {
+  width: 350px;
+  padding: 1.3rem;
+  min-height: 250px;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+
+  h1 {
+    color: black;
+    text-transform: uppercase;
+  }
+
+  #form-select-car {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    input,
+    select {
+      padding: 10px;
+    }
+  }
+}
+
+.btn-open {
+  position: absolute;
+  bottom: 150px;
+}
+
+.btn-close {
+  background: #eee;
+  border-radius: 50%;
+}
+
+.hidden {
+  display: none;
+}
+
+.modal {
+  z-index: 200;
+}
+
+.modal-header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}

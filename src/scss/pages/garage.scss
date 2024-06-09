@@ -1,0 +1,54 @@
+.garage {
+  padding-top: 20px;
+  .page-top-container{
+    padding: 10px 0;
+  }
+  .controls-container {
+    display: flex;
+    gap: 5px;
+
+    .car-name {
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: bold;
+      font-size: 15px;
+    }
+  }
+  .track-container {
+    display: flex;
+    flex-flow: column nowrap;
+
+    .track {
+      border: 1px dotted white;
+    }
+  }
+}
+
+.track-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-top: 5px dashed white;
+  position:relative;
+}
+.car-icon{
+  transition-property: left;
+  transition-timing-function: linear;
+}
+
+.track-buttons {
+  display: flex;
+  gap: 3px;
+}
+.menu-container{
+  .menu-container .form-group{
+    display: flex;
+    flex-flow:row wrap;
+    gap:3px;
+    font-size: 16px
+  }
+  #create-car,#update-car{
+    padding: 10px;
+    border-radius: 6px
+  }
+}
